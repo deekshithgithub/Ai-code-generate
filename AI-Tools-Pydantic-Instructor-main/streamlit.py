@@ -4,25 +4,6 @@ from pydantic import BaseModel
 from typing import List
 from helpers import code_generator
 
-[theme]
-
-# Primary accent for interactive elements
-primaryColor = '#7792E3'
-
-# Background color for the main content area
-backgroundColor = '#001728'
-
-# Background color for sidebar and most interactive widgets
-secondaryBackgroundColor = '#0C3151'
-
-# Color used for almost all text
-textColor = '#fffff'
-
-# Font family for all text in the app, except code blocks
-# Accepted values (serif | sans serif | monospace) 
-# Default: "sans serif"
-font = "sans serif"
-
 class GeneratedCode(BaseModel):
     code: str
 
