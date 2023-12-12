@@ -11,7 +11,7 @@ class GeneratedCode(BaseModel):
 
 # 3. Apply dark mode CSS
 
-st.markdown("<h1 style='font-family: Helvetica; text-align: center; color: blue;'>D-code Ai</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='font-family: Helvetica; text-align: center; color: blue;'>Dcode Ai</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='font-family: Lato, sans-serif; font-weight: 500; font-size: 18px; color: #fffff; text-align: center;'> ARTIFICIAL INTELLIGENCE BASED CODE GENERATING TOOL.</h4>", unsafe_allow_html=True)
 input_text = st.text_area("Enter your code prompt:", "")
 
