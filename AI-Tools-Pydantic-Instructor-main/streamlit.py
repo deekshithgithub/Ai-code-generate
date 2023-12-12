@@ -4,6 +4,18 @@ from pydantic import BaseModel
 from typing import List
 from helpers import code_generator
 
+st.markdown(
+    """
+    <style>
+        body {
+            background-color: #001728;
+            color: #ffffff;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 class GeneratedCode(BaseModel):
     code: str
 
